@@ -1,0 +1,46 @@
+{
+  "name": "react-app-rewired-swc",
+  "version": "0.0.0",
+  "description": "Use swc in your create-react-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npx standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fupengl/react-app-rewired-swc.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "react-scripts",
+    "react-app",
+    "swc",
+    "react-app-rewired",
+    "customize-cra"
+  ],
+  "license": "ISC",
+  "author": {
+    "name": "fupengl",
+    "email": "fupenglxy@gmail.com",
+    "url": "https://github.com/fupengl"
+  },
+  "bugs": {
+    "url": "https://github.com/fupengl/react-app-rewired-swc/issues"
+  },
+  "homepage": "https://github.com/fupengl/react-app-rewired-swc#readme",
+  "dependencies": {
+    "@swc/core": "^1.2.161",
+    "@swc/helpers": "^0.3.8",
+    "@swc/jest": "^0.2.20",
+    "swc-loader": "^0.1.15"
+  },
+  "peerDependencies": {
+    "react-app-rewired": "*"
+  }
+}
