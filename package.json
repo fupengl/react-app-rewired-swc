@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewired-swc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use swc in your create-react-app",
   "main": "index.js",
   "scripts": {
