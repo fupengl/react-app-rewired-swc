@@ -49,6 +49,7 @@ function rewiredSWC({ swcLoaderOptions } = {}) {
                   ? {
                     syntax: 'typescript',
                     tsx: true,
+                    decorators: true,
                     dynamicImport: true,
                   }
                   : {
