@@ -34,7 +34,7 @@ function rewiredSWC({ swcLoaderOptions } = {}) {
             test: /\.(js|mjs|jsx|ts|tsx)$/,
             include: [paths.appSrc],
             loader: require.resolve('swc-loader'),
-            options: swcLoaderOptions || useSwcConfig ? undefined : {
+            options: swcLoaderOptions || (useSwcConfig ? undefined : {
               jsc: {
                 target: 'es2015',
                 externalHelpers: true,
@@ -58,7 +58,7 @@ function rewiredSWC({ swcLoaderOptions } = {}) {
                     dynamicImport: true,
                   },
               },
-            },
+            }),
           });
         }
       }
